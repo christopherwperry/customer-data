@@ -1,0 +1,53 @@
+header {
+  text-align: center;
+}
+
+#profile-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.user-profile {
+  text-align: center;
+  margin: 5px;
+}
+
+.nameline {
+  text-transform: uppercase;
+  font-size: 12px;
+  border-bottom: solid 0.5px #50946F;
+  padding-bottom: 2px;
+}
+
+img {
+  width: 19vw;
+  height: auto;
+}
+
+h4 {
+  text-transform: capitalize;
+}
+
+.email-line {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: lighter;
+  color: #CBCCCD;
+}
+
+.address-info, .phone-num {
+  font-size: 10px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.socialsn {
+  font-size: 10px;
+  font-weight: 200;
+  color: #50946F;
+
+}
