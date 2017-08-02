@@ -1,14 +1,17 @@
 console.log(customers);
 
-/*
-image
-first name last name
-email
-address
-phone
-ssn
-*/
+//Grabbing the profile-container to add newly created divs to.
 let getProfCont = document.getElementById("profile-container")
+
+/*
+Creates a loop to pass through all index values of
+the results array that exists within the customers data set.
+With each iteration we will create a new div of class "user-profile"
+to add the profile data to. We assign variables to each piece of data
+that is needed to build the profiles for each person. Then create a template
+using a template literal that will house all the relevant data.
+Finally, we add each new templates to an single div and append each div to
+our profile-container.*/
 
 for (let i = 0; i < customers.results.length; i++){
   let newProf = document.createElement("div");

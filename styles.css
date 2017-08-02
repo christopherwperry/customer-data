@@ -1,5 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   text-align: center;
+  font-size: 18px;
 }
 
 #profile-container {
@@ -21,10 +26,13 @@ header {
   font-size: 12px;
   border-bottom: solid 0.5px #50946F;
   padding-bottom: 2px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 img {
-  width: 19vw;
+  width: 17vw;
   height: auto;
 }
 
@@ -45,9 +53,16 @@ h4 {
   margin: 0;
 }
 
-.socialsn {
+.socialsn:hover {
   font-size: 10px;
   font-weight: 200;
   color: #50946F;
+  text-shadow: none;
+}
 
+.socialsn {
+  font-size: 10px;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  font-weight: 100;
 }
